@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div id="flexbody">
+    <div id="leftside">   
+      <div id="odinLogo">
+        <img src="/odin-lined.png" alt="odin logo">
+        <h1>Valhalla register</h1>
+      </div>
+      <footer>
+        <p>Photo by 
+          <a href="https://unsplash.com/@tomca_tv?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tom Caillarec</a> 
+          on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </p>
+      </footer>
+    </div>
+    <div id="rightside">
+      <div id="headerRight">
+        <h1>
+          This is not real service! You know, sometimes you just need to raid England
+          and feel alive. Come join Odin!
+        </h1>
+      </div>
+      <div id="form">
+        <form action="post">
+          <div id="flexForm">
+            <div id="firstColumn">
+                <p>
+                  <label for="firstName"><span>FIRST NAME</span></label>
+                  <input type="text" name="firstName id=firstName" minlength="2" required>
+                </p>
+                <p>
+                  <label for="email"><span>EMAIL</span></label>
+                  <input type="mail" name="email" id="email" required>
+                </p>
+                <p>
+                  <label for="pswd"><span>PASSWORD</span></label>
+                  <input type="password" name="pswd" id="pswd" required minlength="5">
+                </p>
+                <p id="errorMsg">* passwords do not match</p>
+              </div>
+              <div id="secondColumn">
+                <p>
+                  <label for="lastName"><span>LAST NAME</span></label>
+                  <input type="text" name="lastName id=lastName" minlength="2" required>
+                </p>
+                <p>
+                  <label for="tel"><span>PHONE NUMBER</span></label>
+                  <input type="tel" name="tel" id="tel" required>
+                </p>
+                <p>
+                  <label for="pswdConf"><span>CONFIRM PASSWORD</span></label>
+                  <input type="password" name="pswdConf" id="pswdConf" required>
+                </p>
+              </div>
+          </div>
+          <section>
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <a href="http://google.com">Log in</a></p>
+          </section>
+        </form>
+      </div>
+      <footer>
+        <p>Odin. Dnipro. Ukraine. Rus ne Peace da</p>
+      </footer>
+    </div>
+  </div>
+  <script src="/script.js"></script>
+</body>
+</html>
